@@ -64,10 +64,30 @@ class Home extends Component {
   };
 
   render() {
+    const {
+      movies,
+      movieImage,
+      loading,
+      currentPage,
+      totalPages,
+      searchTerm
+    } = this.state;
+
     return (
       <div className="movie-home">
-        <MovieImage />
-        <SearchBar />
+        {movieImage ? (
+          <div>
+            <MovieImage
+              image={`${IMAGE_BASE_URL}${BACKDROP_SIZE}${
+                movieImage.backdrop_path
+              }`}
+              title={movieImage.original_title}
+              text={movieImage.overview}
+            />
+            <SearchBar callback={this.searchItems} />
+          </div>
+        ) : null}
+
         <FourColGrid />
         <Spinner />
         <LoadMoreBtn />
