@@ -1,0 +1,23 @@
+.actor img {
+  width: 40%;
+  height: auto;
+  float: left;
+}
+
+.actor-name {
+  font-family: sans-serif;
+  font-size: 22px;
+  color: #fff;
+  float: left;
+  margin: 10px 20px;
+  width: 40%;
+}
+
+.actor-character {
+  font-family: sans-serif;
+  font-size: 18px;
+  color: #fff;
+  float: left;
+  margin: 0 20px 10px 20px;
+  width: 40%;
+}
