@@ -92,7 +92,7 @@ class Home extends Component {
     } = this.state;
 
     return (
-      <div className="movie-home">
+      <div className="home">
         {movieImage ? (
           <div>
             <MovieImage
@@ -106,9 +106,30 @@ class Home extends Component {
           </div>
         ) : null}
 
-        <FourColGrid />
-        <Spinner />
-        <LoadMoreBtn />
+        <div className="home-grid">
+          <FourColGrid
+            header={searchTerm ? 'Search Result' : 'Popular Movies'}
+            loading={loading}
+          >
+            {movies.map((element, i) => (
+              <MovieThumb
+                key={i}
+                clickable={true}
+                image={
+                  element.poster_path
+                    ? `${IMAGE_BASE_URL}${POSTER_SIZE}${element.poster_path}`
+                    : './images/no_image.jpg'
+                }
+                movieId={element.id}
+                movieName={element.original_title}
+              />
+            ))}
+          </FourColGrid>
+          {loading ? <Spinner /> : null}
+          {currentPage <= totalPages && !loading ? (
+            <LoadMoreBtn text="Load More" onClick={this.loadMoreItems} />
+          ) : null}
+        </div>
       </div>
     );
   }
