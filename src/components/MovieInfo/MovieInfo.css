@@ -35,19 +35,18 @@
 }
 
 .movieinfo-text {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
   height: 100%;
   width: auto;
   padding: 40px;
   color: #fff;
   overflow: hidden;
-  box-sizing: border-box;
   position: absolute;
   left: 360px;
 }
 
 .movieinfo-text h1 {
-  font-family: 'Abel', sans-serif;
+  font-family: sans-serif;
   font-size: 48px;
   margin: 0;
 }
@@ -56,10 +55,11 @@
   font-size: 16px;
   line-height: 0;
   margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .movieinfo-text p {
-  font-family: 'Abel', sans-serif;
+  font-family: sans-serif;
   font-size: 18px;
   line-height: 26px;
 }

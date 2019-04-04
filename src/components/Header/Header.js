@@ -7,7 +7,7 @@ const Header = () => {
     <div className="header">
       <div className="header-content">
         <Link to="/">
-          <h1>Movies</h1>
+          <h1>See the most popular movies</h1>
         </Link>
       </div>
     </div>
