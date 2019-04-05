@@ -4,6 +4,7 @@ import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import Movie from './components/Movie/Movie';
 import NotFound from './components/NotFound/NotFound';
+import Footer from './components/Footer/Footer';
 
 import './App.css';
 import ActorInfo from './components/ActorInfo/ActorInfo';
@@ -20,6 +21,7 @@ class App extends Component {
             <Route path="/:movieId//:actor" component={ActorInfo} exact />
             <Route component={NotFound} />
           </Switch>
+          <Footer />
         </React.Fragment>
       </BrowserRouter>
     );

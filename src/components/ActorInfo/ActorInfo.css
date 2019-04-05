@@ -4,7 +4,11 @@
   margin: 20px;
 }
 
-.actorinfo img {
+.actorimg {
+  height: 60vh;
+}
+
+.actorimg img {
   height: 100%;
 }
 
