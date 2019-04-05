@@ -69,6 +69,7 @@ class Movie extends Component {
 
   render() {
     const { movieName } = this.props.location;
+    const { movieId } = this.props.match.params;
     const { movie, directors, actors, loading } = this.state;
 
     return (
@@ -83,7 +84,13 @@ class Movie extends Component {
           <div className="movie-grid">
             <FourColGrid header={'Actors'}>
               {actors.map((element, i) => (
-                <Actor key={i} actor={element} />
+                <Actor
+                  key={i}
+                  actor={element}
+                  clickable={true}
+                  movieId={movieId}
+                  movie={movie}
+                />
               ))}
             </FourColGrid>
           </div>

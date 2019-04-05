@@ -1,0 +1,22 @@
+.actorinfo {
+  text-align: center;
+  height: 70vh;
+  margin: 20px;
+}
+
+.actorinfo img {
+  height: 100%;
+}
+
+.actorinfo h1 {
+  margin: 20px;
+}
+
+@keyframes animateMovieinfo {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
