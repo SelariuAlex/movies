@@ -1,13 +1,13 @@
 {
-  "main.css": "/PopularMovies/static/css/main.2aa9759b.chunk.css",
-  "main.js": "/PopularMovies/static/js/main.5871f201.chunk.js",
-  "main.js.map": "/PopularMovies/static/js/main.5871f201.chunk.js.map",
+  "main.css": "/PopularMovies/static/css/main.9b05247c.chunk.css",
+  "main.js": "/PopularMovies/static/js/main.33ad172d.chunk.js",
+  "main.js.map": "/PopularMovies/static/js/main.33ad172d.chunk.js.map",
   "runtime~main.js": "/PopularMovies/static/js/runtime~main.d7aaef45.js",
   "runtime~main.js.map": "/PopularMovies/static/js/runtime~main.d7aaef45.js.map",
-  "static/js/2.ebeee4b5.chunk.js": "/PopularMovies/static/js/2.ebeee4b5.chunk.js",
-  "static/js/2.ebeee4b5.chunk.js.map": "/PopularMovies/static/js/2.ebeee4b5.chunk.js.map",
+  "static/js/2.d49de587.chunk.js": "/PopularMovies/static/js/2.d49de587.chunk.js",
+  "static/js/2.d49de587.chunk.js.map": "/PopularMovies/static/js/2.d49de587.chunk.js.map",
   "index.html": "/PopularMovies/index.html",
-  "precache-manifest.561a19fec4edd2ed99a17d511f23395d.js": "/PopularMovies/precache-manifest.561a19fec4edd2ed99a17d511f23395d.js",
+  "precache-manifest.08842574bca84f9d2d46bc58fba91575.js": "/PopularMovies/precache-manifest.08842574bca84f9d2d46bc58fba91575.js",
   "service-worker.js": "/PopularMovies/service-worker.js",
-  "static/css/main.2aa9759b.chunk.css.map": "/PopularMovies/static/css/main.2aa9759b.chunk.css.map"
+  "static/css/main.9b05247c.chunk.css.map": "/PopularMovies/static/css/main.9b05247c.chunk.css.map"
 }
