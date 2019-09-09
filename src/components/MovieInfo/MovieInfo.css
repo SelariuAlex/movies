@@ -102,3 +102,9 @@ meter::-webkit-meter-suboptimum-value {
 meter::-webkit-meter-even-less-good-value {
   background: linear-gradient(to bottom, #ee5f5b);
 }
+
+@media only screen and (max-width: 800px) {
+  .movieinfo-content {
+    display: none;
+  }
+}

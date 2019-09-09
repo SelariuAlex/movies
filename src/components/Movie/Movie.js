@@ -95,7 +95,9 @@ class Movie extends Component {
             </FourColGrid>
           </div>
         ) : null}
-        {!actors && !loading ? <h1>No movie found</h1> : null}
+        {!actors && !loading ? (
+          <h1 className="not-found">No movie found</h1>
+        ) : null}
         {loading ? <Spinner /> : null}
       </div>
     );
