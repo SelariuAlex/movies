@@ -38,6 +38,7 @@
 @media screen and (max-width: 720px) {
   .searchbar-input {
     font-size: 28px;
+    max-width: 200px;
     color: #fff;
   }
 }
